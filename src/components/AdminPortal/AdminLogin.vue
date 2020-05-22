@@ -10,6 +10,7 @@
 <script>
 import { reactive, onMounted } from '@vue/composition-api';
 import * as firebase from 'firebase/app';
+import 'firebase/auth';
 import Button from '../ui/Button.vue';
 
 export default {

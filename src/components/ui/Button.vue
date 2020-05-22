@@ -24,6 +24,7 @@ export default {
     },
     onClickHandler: {
       type: Function,
+      default() {},
     },
   },
 };
